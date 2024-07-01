@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: greeter
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

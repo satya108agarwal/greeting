@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: greeter-messages
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

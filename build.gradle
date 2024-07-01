@@ -1,0 +1,14 @@
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	apply plugin: 'idea'
+
+	ext {
+		set('springCloudServicesVersion', '4.1.0')
+		set('springCloudVersion', '2023.0.0')
+	}
+
+	repositories {
+		mavenCentral()
+	}
+}
